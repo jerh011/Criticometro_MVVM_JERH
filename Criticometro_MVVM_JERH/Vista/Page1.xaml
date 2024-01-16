@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Criticometro_MVVM_JERH.Vista.Page1">
+    
+    
+    <StackLayout BackgroundColor="White" Margin="10" >
+
+        <Frame BackgroundColor="White" Padding="24" CornerRadius="0" >
+
+            <Label Text="ACTIVIDAD: CRITICOGRAFO" HorizontalTextAlignment="Center"  TextColor="Black" FontSize="20"/>
+
+        </Frame>
+
+
+        <Label Text="NOMBRE:" FontSize="20"/>
+        
+        <Entry Placeholder="Nombre"
+                   TextColor="Black"
+                   VerticalOptions="Center"
+                   Text="{Binding Nombre}"/>
+
+        <Label Text="GENERO:" FontSize="20"/>
+
+        <Grid Padding="0,0,0,80">
+            <RadioButton  Grid.Column="0" Grid.Row="0" Content="Hombre" x:Name="Radio_Hombre" IsChecked="{Binding SexoHombre}"/>
+            <RadioButton Grid.Column="1" Grid.Row="0" Content="Mujer" x:Name="Radio_Mujer" IsChecked="{Binding SexoMujer}"/>
+        </Grid>
+
+        <Grid>
+
+            <CheckBox Grid.Row="0" Grid.Column="0" Margin="0,-10,0,0" IsChecked="{Binding Alto}" />
+            <Label Grid.Row="0" Grid.Column="1" Text="ALTO" Margin="-60,0,0,0"/>
+
+            <CheckBox Grid.Row="0" Grid.Column="2"  Margin="0,-10,0,0" IsChecked="{Binding Feo}"/>
+            <Label Grid.Row="0" Grid.Column="3" Text="FEO" Margin="-60,0,0,0"/>
+
+            <CheckBox Grid.Row="1" Grid.Column="0" Margin="0,-10,0,0" IsChecked="{Binding Listo}"/>
+            <Label Grid.Row="1" Grid.Column="1" Text="LISTO" Margin="-60,0,0,0"/>
+
+            <CheckBox Grid.Row="1" Grid.Column="2" Margin="0,-10,0,0" IsChecked="{Binding Extrabagante}"/>
+            <Label Grid.Row="1" Grid.Column="3" Text="EXTRAVAGANTE" Margin="-60,0,0,0"/>
+
+            <CheckBox Grid.Row="2" Grid.Column="0" Margin="0,-10,0,0" IsChecked="{Binding Raro}"/>
+            <Label Grid.Row="2" Grid.Column="1" Text="RARO" Margin="-60,0,0,0"/>
+
+            <CheckBox Grid.Row="2" Grid.Column="2" Margin="0,-10,0,0" IsChecked="{Binding Grande}"/>
+            <Label Grid.Row="2" Grid.Column="3" Text="GRANDE" Margin="-60,0,0,0"/>
+
+        </Grid>
+
+        <Button Text="Criticar" FontSize="40" Margin="0,20,0,50" Command="{Binding Criticarcommand}" />
+
+        <Label  Margin="0,60"  Text="{Binding Critica}" TextColor="Black" Padding="10" FontSize="30"/>
+
+    </StackLayout>
+
+
+
+</ContentPage>

@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Criticometro_MVVM_JERH.Android", "Criticometro_MVVM_JERH.Android\Criticometro_MVVM_JERH.Android.csproj", "{FD54BF60-EC48-4AAA-932A-2897D271C067}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Criticometro_MVVM_JERH", "Criticometro_MVVM_JERH\Criticometro_MVVM_JERH.csproj", "{8403790B-1A9B-488F-B4B5-B9A644BCE550}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD54BF60-EC48-4AAA-932A-2897D271C067}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD54BF60-EC48-4AAA-932A-2897D271C067}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD54BF60-EC48-4AAA-932A-2897D271C067}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FD54BF60-EC48-4AAA-932A-2897D271C067}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD54BF60-EC48-4AAA-932A-2897D271C067}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD54BF60-EC48-4AAA-932A-2897D271C067}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8403790B-1A9B-488F-B4B5-B9A644BCE550}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8403790B-1A9B-488F-B4B5-B9A644BCE550}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8403790B-1A9B-488F-B4B5-B9A644BCE550}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8403790B-1A9B-488F-B4B5-B9A644BCE550}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8403790B-1A9B-488F-B4B5-B9A644BCE550}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8403790B-1A9B-488F-B4B5-B9A644BCE550}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6BE7F8A9-E6BF-411F-9B37-B549F2292443}
+	EndGlobalSection
+EndGlobal
